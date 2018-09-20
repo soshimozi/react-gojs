@@ -80,8 +80,8 @@ class GojsDiagram<N extends BaseNodeModel, L extends LinkModel> extends React.Pu
             linkFromPortIdProperty: this.props.linkFromPortIdProperty || '',
             linkToPortIdProperty: this.props.linkToPortIdProperty || '',
             nodeDataArray: [...this.props.model.nodeDataArray],
-            linkDataArray: [...this.props.model.linkDataArray]
-            //nodeCategoryProperty: this.props.nodeCategoryProperty || 'category'
+            linkDataArray: [...this.props.model.linkDataArray],
+            nodeCategoryProperty: this.props.nodeCategoryProperty || 'category'
         });
     }
     render() {
